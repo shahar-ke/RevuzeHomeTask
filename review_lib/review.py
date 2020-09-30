@@ -10,7 +10,7 @@ class Review:
         else:
             self.review_json = json.loads(json_string)
 
-    def get_text(self):
+    def get_text(self) -> str:
         """
         get relevant text in review
         """
